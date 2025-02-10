@@ -24,6 +24,6 @@ Running Airflow On Windows :
 - Access localhost::8080 to see Airflow UI in web
 
 Create DAG:
-- create folder -> command -> mkdir <folder name>
-- enter the folder -> command -> cd <folder name>
+- create folder -> command -> mkdir <folder 'name>
+- enter the folder -> command -> cd <folder 'name>
 - open the code editor -> command -> code .
