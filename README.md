@@ -1,4 +1,4 @@
-This repo was using for testing airflow with wsl, cause's i'm a windows user. When you want to try airflow-apache on windows, this is "how to" using airflow on windows :
+This repo was used for testing airflow with wsl, cause's i'm a windows user. When you want to try airflow-apache on windows, this is "how to" using airflow on windows :
 Running Airflow On Windows :
 - Download and Install WSL
 - Donwload conda on wsl
