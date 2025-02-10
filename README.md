@@ -2,12 +2,12 @@ This repo was using for testing airflow with wsl, cause's i'm a windows user. Wh
 Running Airflow On Windows :
 - Download and Install WSL
 - Donwload conda on wsl
-	with command -> history | grep Miniconda -> and then copy the repo of conda -> wget <repo link>
-- Set up env -> command -> conda create -n <name of env> <python version>
+	with command -> history | grep Miniconda -> and then copy the repo of conda -> wget <repo 'sourcelink'>
+- Set up env -> command -> conda create -n <name 'of env> <python 'version>
 	
-- Activate the env -> command -> conda activate <name of env>
+- Activate the env -> command -> conda activate <name 'of env>
 - Install apache airflow -> command -> pip install apache-airflow
-- Set the airflow home -> command -> vim ~/.bashrc -> <set airflow-home in vim> export AIRFLOW_HOME=~/<name> (up to us for the placement)
+- Set the airflow home -> command -> vim ~/.bashrc -> <set 'airflow-home in vim> export AIRFLOW_HOME=~/<name> (up to us for the placement)
 - Init db -> command -> airflow db init
 - Create user -> command -> airflow users create \
     --username admin \
